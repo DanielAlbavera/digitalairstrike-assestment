@@ -1,0 +1,20 @@
+{
+  "name": "digitalairstrike-assestment",
+  "version": "1.0.0",
+  "description": "JS framework for Digital Air Strike Interview",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx playwright test",
+    "install-browsers": "npx playwright install",
+    "instal-msedge": "npx playwright install msedge"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.19.2"
+  }
+}
